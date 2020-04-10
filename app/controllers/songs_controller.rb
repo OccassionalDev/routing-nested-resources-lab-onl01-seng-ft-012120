@@ -1,6 +1,6 @@
 class SongsController < ApplicationController
   def index
-    if params[]
+    if params[:artist_]
     @songs = Song.all
   end
 
